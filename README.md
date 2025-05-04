@@ -18,8 +18,8 @@ class="center">
 
 ## 🌐 Overview
 
-This project explores the emergence of **language-independent semantic spaces**—a “**Lingua Franca**”—within Multilingual Large Language Models (MLLMs). We:
-- Identify **key linguistic regions** that dominate representations of each language.
+This project explores the emergence of **language-agnostic semantic spaces**—a “**Lingua Franca**”—within Multilingual Large Language Models (MLLMs). We:
+- Identify **key linguistic regions** which are neurons crucial for the capacity of each language.
 - Track the **evolution of language-specific and semantic activations** across layers.
 - Introduce two core metrics:
   - **LRDS** (Linguistic Region Development Score)
@@ -33,7 +33,7 @@ We use models like BLOOM and LLaMA2 to validate our findings on datasets such as
 ## 📦 Features
 
 - 🔍 Hook-based activation capture at neuron level.
-- 🧠 Automatic detection of functinal language-specific key neurons.
+- 🧠 Automatic detection of functional language-specific key neurons.
 - 🧪 Evaluation of semantic alignment via cosine similarity.
 - 🔥 Ablation analysis on neuron sets and their impact on downstream tasks and perplexity.
 - 📊 Visualization of cross-lingual similarities and neuron contributions.
